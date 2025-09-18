@@ -322,3 +322,46 @@ h2.display-4, h5.card-title {
     cursor: pointer;
     z-index: 1060;
 }
+
+/* Nuevo: Estilos para el botón flotante de WhatsApp */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    
+    /* Animación de flotar */
+    animation: float 2s ease-in-out infinite;
+}
+
+.whatsapp-float:hover {
+    background-color: #1DA851;
+}
+
+.whatsapp-icon {
+    font-size: 30px;
+}
+
+/* Definición de la animación de flotar */
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
