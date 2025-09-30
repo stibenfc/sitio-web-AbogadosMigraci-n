@@ -215,29 +215,29 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-md-10">
                         <form id="contact-form" name="contact" data-netlify="true">
-                            <div class="mb-3">
-                                <label for="contact-name" class="form-label">Nombre Completo</label>
-                                <input type="text" class="form-control" id="contact-name" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="contact-email" class="form-label">Correo Electrónico</label>
-                                <input type="email" class="form-control" id="contact-email" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="contact-phone" class="form-label">Teléfono / WhatsApp</label>
-                                <input type="tel" class="form-control" id="contact-phone">
-                            </div>
-                            <div class="mb-3">
-                                <label for="contact-subject" class="form-label">Asunto</label>
-                                <input type="text" class="form-control" id="contact-subject" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="contact-message" class="form-label">Mensaje</label>
-                                <textarea class="form-control" id="contact-message" rows="5" maxlength="500" required></textarea>
-                                <small class="form-text text-muted" id="contact-char-count">0 / 500</small>
-                            </div>
-                            <button type="submit" class="btn contact-submit-btn w-100">Enviar Mensaje</button>
-                        </form>
+    <div class="mb-3">
+        <label for="contact-name" class="form-label">Nombre Completo</label>
+                <input type="text" class="form-control" id="contact-name" name="name" required>
+    </div>
+    <div class="mb-3">
+        <label for="contact-email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="contact-email" name="email" required>
+    </div>
+    <div class="mb-3">
+        <label for="contact-phone" class="form-label">Teléfono / WhatsApp</label>
+                <input type="tel" class="form-control" id="contact-phone" name="phone">
+    </div>
+    <div class="mb-3">
+        <label for="contact-subject" class="form-label">Asunto</label>
+                <input type="text" class="form-control" id="contact-subject" name="subject" required>
+    </div>
+    <div class="mb-3">
+        <label for="contact-message" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="contact-message" name="message" rows="5" maxlength="500" required></textarea>
+        <small class="form-text text-muted" id="contact-char-count">0 / 500</small>
+    </div>
+    <button type="submit" class="btn contact-submit-btn w-100">Enviar Mensaje</button>
+</form>
                     </div>
                 </div>
             </div>
