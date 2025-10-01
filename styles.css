@@ -365,3 +365,49 @@ h2.display-4, h5.card-title {
         transform: translateY(0px);
     }
 }
+
+/* =========================================== */
+/* === NUEVO ESTILO PARA BOTÓN CORPORATIVO === */
+/* =========================================== */
+.btn-corporate {
+    /* Color de fondo: El color de acento brillante (Yellow/Orange) */
+    background-color: #ffc107 !important; 
+    /* Color de texto: El color oscuro de la marca (Dark Blue/Black) */
+    color: #0d121f !important;         
+    /* Borde: El mismo color de acento */
+    border-color: #ffc107 !important; 
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-corporate:hover,
+.btn-corporate:focus {
+    /* Efecto al pasar el ratón (Hover): Un tono más oscuro del acento para feedback */
+    background-color: #e6b000 !important; /* Un amarillo/naranja un poco más oscuro */
+    border-color: #e6b000 !important;
+    color: #0d121f !important;
+}
+
+/* ================================================= */
+/* === ESTILOS PARA EL BOTÓN DE CIERRE DE LA POLÍTICA === */
+/* ================================================= */
+.btn-cerrar-politica {
+    /* Estilos base del botón */
+    background: none;
+    border: none;
+    color: #dc3545; /* Rojo de Bootstrap para advertencias/errores */
+    font-size: 1.5rem; /* Hace la 'x' y el texto más grandes */
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    display: flex; /* Alineación de la X y el texto */
+    align-items: center;
+    margin-left: auto; /* Mantiene el botón a la derecha */
+}
+
+.btn-cerrar-politica:hover {
+    color: #891d28; /* Rojo más oscuro al pasar el ratón */
+    background-color: #f8d7da; /* Fondo suave para resaltar */
+}
