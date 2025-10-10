@@ -411,3 +411,46 @@ h2.display-4, h5.card-title {
     color: #891d28; /* Rojo más oscuro al pasar el ratón */
     background-color: #f8d7da; /* Fondo suave para resaltar */
 }
+
+/* ================================================= */
+/* === ESTILOS PARA LA PÁGINA DE AGRADECIMIENTO (gracias.html) === */
+/* ================================================= */
+
+/* Contenedor principal para centrar el contenido en toda la vista */
+.thank-you-page-body {
+    /* Usamos el color de fondo de la sección normal */
+    background-color: #fff; 
+    /* Altura mínima de la ventana para centrar verticalmente */
+    min-height: 100vh;
+    display: flex;
+    align-items: center; /* Centrado vertical */
+    justify-content: center; /* Centrado horizontal */
+    text-align: center;
+    flex-direction: column; 
+    padding: 20px;
+}
+
+/* Estilo para el ícono de éxito (usaremos el color verde de WhatsApp para el check) */
+.thank-you-icon {
+    /* El color verde es el de WhatsApp / éxito */
+    color: #25D366; 
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+/* Estilo para el botón principal (reutilizamos el look del botón primario) */
+.thank-you-btn {
+    /* Color de fondo: El color oscuro de la marca (Dark Blue) */
+    background-color: #1f2a44 !important;
+    border-color: #1f2a44 !important;
+    color: white !important;
+    font-weight: 700;
+    padding: 12px 25px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.thank-you-btn:hover {
+    background-color: #0d121f !important;
+    border-color: #0d121f !important;
+}
